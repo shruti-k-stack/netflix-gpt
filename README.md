@@ -1,3 +1,54 @@
+# NETFLIX GPT
+
+- Create Vite latest app
+- Configured TailwindCSS
+- Header
+- Login Form
+
+
+# Features
+
+- LogIn/SignUp
+    - Sign In/Sign Up Form
+    - Redirect to Browse Page
+- Browse
+    - Header
+    - Main Movie
+         - Trailer In Background
+         - Title & Description
+         - Movie Suggestions
+               - MovieLists * n
+- Netflix GPT
+    - Search Bar
+    - Movie Suggestions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
