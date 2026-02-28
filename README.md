@@ -6,6 +6,9 @@
 - Login Form
 - Sign Up form
 - form validation
+- Install React Hook Form & Zod for Form Validation
+- Firebase login
+- Firebase deploy
 
 
 # Features
