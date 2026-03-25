@@ -2,7 +2,12 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useState } from 'react';
-import Header from './Header'
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import Header from './Header';
+import { auth } from "../utils/firebase";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { addUser } from "../utils/userSlice";
 
 const loginSchema = z.object({
   fullName: z.string().min(1, "Full Name is required").optional(),
@@ -18,6 +23,8 @@ const loginSchema = z.object({
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const {
     register,
@@ -27,9 +34,41 @@ const Login = () => {
     resolver : zodResolver(loginSchema)
   });
 
-  const onSubmit = (data) => {
-    console.log("Form Data:", data);
+  const onSubmit = async (data) => {
+
+  try {
+    if (!isSignInForm) {
+      // Sign Up logic
+      const userCredential = await createUserWithEmailAndPassword(auth, data.email, data.password);
+      const user = userCredential.user;
+      updateProfile(user, {
+        displayName: data.fullName,
+        photoURL: "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3BmLWljb240LWppcjIwNjItcG9yLWwtam9iNzg4LnBuZw.png"
+      })
+      .then(() => {
+        const { uid, email, displayName, photoURL } = auth.currentUser;
+        dispatch(addUser({ uid: uid, email: email, displayName: displayName, photoURL: photoURL }));
+        navigate('/browse');
+      })
+      .catch((error) => {
+        console.error("Error updating profile:", error);
+      });
+      console.log("Signed Up:", user);
+    }
+    else {
+      // Sign In logic
+      const userCredential = await signInWithEmailAndPassword(auth, data.email, data.password);
+      const user = userCredential.user;
+      console.log("Signed In:", user);
+      navigate('/browse');
+    }
+  } 
+  catch (error) {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    console.error(errorCode + ": " + errorMessage);
   }
+  };
 
   const toggleForm = () => {
     setIsSignInForm(!isSignInForm);

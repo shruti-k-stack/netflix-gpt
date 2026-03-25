@@ -7,8 +7,15 @@
 - Sign Up form
 - form validation
 - Install React Hook Form & Zod for Form Validation
-- Firebase login
+- Firebase setup
 - Firebase deploy
+- create authentication
+- create signUp user account
+- Implement Sign In user API
+- created redux store with userSlice 
+- Implemented SignOut
+- Update Profile
+- Fetch movies from TMDB
 
 
 # Features
