@@ -12,54 +12,25 @@
 - create authentication
 - create signUp user account
 - Implement Sign In user API
-- created redux store with userSlice 
+- created redux store with userSlice
 - Implemented SignOut
 - Update Profile
 - Fetch movies from TMDB
 
-
 # Features
 
 - LogIn/SignUp
-    - Sign In/Sign Up Form
-    - Redirect to Browse Page
+  - Sign In/Sign Up Form
+  - Redirect to Browse Page
 - Browse
-    - Header
-    - Main Movie
-         - Trailer In Background
-         - Title & Description
-         - Movie Suggestions
-               - MovieLists * n
+  - Header
+  - Main Movie
+    - Trailer In Background
+    - Title & Description
+    - Movie Suggestions - MovieLists \* n
 - Netflix GPT
-    - Search Bar
-    - Movie Suggestions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - Search Bar
+  - Movie Suggestions
 
 # React + Vite
 
