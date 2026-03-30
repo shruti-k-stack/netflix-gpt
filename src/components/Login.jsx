@@ -12,6 +12,8 @@ import {
 } from "firebase/auth";
 import { addUser } from "../utils/userSlice";
 
+const USER_IMG = "https://occ-0-988-1007.1.us-east-1.fc.lightningbase-cdn.com/sites/default/files/default_images/default-user-icon.png";
+
 const loginSchema = z.object({
   fullName: z.string().min(1, "Full Name is required").optional(),
   email: z
@@ -49,8 +51,7 @@ const Login = () => {
 
         updateProfile(user, {
           displayName: data.fullName,
-          photoURL:
-            "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3BmLWljb240LWppcjIwNjItcG9yLWwtam9iNzg4LnBuZw.png",
+          photoURL: USER_IMG,
         })
           .then(() => {
             const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -66,7 +67,6 @@ const Login = () => {
           .catch((error) => {
             console.error("Error updating profile:", error);
           });
-        console.log("Signed Up:", user);
       } else {
         // Sign In logic
         const userCredential = await signInWithEmailAndPassword(
@@ -75,7 +75,15 @@ const Login = () => {
           data.password,
         );
         const user = userCredential.user;
-        console.log("Signed In:", user);
+        const { uid, email, displayName, photoURL } = user;
+        dispatch(
+          addUser({
+            uid: uid,
+            email: email,
+            displayName: displayName,
+            photoURL: photoURL,
+          }),
+        );
       }
     } catch (error) {
       const errorCode = error.code;
