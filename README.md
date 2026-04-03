@@ -18,7 +18,21 @@
 - Bug Fix: Sign up user displayName and user img update
 - bug Fix: if user not loggedin redirect/browse to login page
 - Unsubscribe to OnAuthStatechanged callback
-- Fetch movies from TMDB
+- Add hardcoded values to constants.jsx
+- Register TMDB API & create app & get access token
+- get data from TMDB now playing movies list API
+- Custom Hook for now Playing movies
+- create movieSlice
+- update store with movies data
+- planning main container & secondary container
+- Fetch Data for trailr vdo
+- Update store with trailer vdo data
+- Embedded the youtube vdo and make it autoplay and mute
+- Tailwind Classes for main container
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+
 
 # Features
 
