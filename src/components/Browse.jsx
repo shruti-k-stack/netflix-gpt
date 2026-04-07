@@ -6,7 +6,6 @@ import { MainContainer } from "./MainContainer";
 import { SecondaryContainer } from "./SecondaryContainer";
 import GptSearch from "./GptSearch";
 
-
 const Browse = () => {
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
 
@@ -15,11 +14,14 @@ const Browse = () => {
   return (
     <>
       <Header />
-      {showGptSearch ? (<GptSearch />) : 
-      (<>
-      <MainContainer />
-      <SecondaryContainer />
-      </>)}
+      {showGptSearch ? (
+        <GptSearch />
+      ) : (
+        <>
+          <MainContainer />
+          <SecondaryContainer />
+        </>
+      )}
     </>
   );
 };

@@ -33,7 +33,6 @@
 - Build Movie List
 - Build Movie Card
 
-
 # Features
 
 - LogIn/SignUp

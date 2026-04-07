@@ -12,7 +12,8 @@ import {
 } from "firebase/auth";
 import { addUser } from "../utils/userSlice";
 
-const USER_IMG = "https://occ-0-988-1007.1.us-east-1.fc.lightningbase-cdn.com/sites/default/files/default_images/default-user-icon.png";
+const USER_IMG =
+  "https://occ-0-988-1007.1.us-east-1.fc.lightningbase-cdn.com/sites/default/files/default_images/default-user-icon.png";
 
 const loginSchema = z.object({
   fullName: z.string().min(1, "Full Name is required").optional(),

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const GptSearchBar = () => {
-  return (
-    <div>GptSearchBar</div>
-  )
-}
+  return <div>GptSearchBar</div>;
+};
 
-export default GptSearchBar
+export default GptSearchBar;

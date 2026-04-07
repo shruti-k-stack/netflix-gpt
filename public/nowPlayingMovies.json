@@ -8,13 +8,7 @@
     {
       "adult": false,
       "backdrop_path": "/iJQIbOPm81fPEGKt5BPuZmfnA54.jpg",
-      "genre_ids": [
-        16,
-        12,
-        10751,
-        14,
-        35
-      ],
+      "genre_ids": [16, 12, 10751, 14, 35],
       "id": 502356,
       "original_language": "en",
       "original_title": "The Super Mario Bros. Movie",
@@ -30,11 +24,7 @@
     {
       "adult": false,
       "backdrop_path": "/nDxJJyA5giRhXx96q1sWbOUjMBI.jpg",
-      "genre_ids": [
-        28,
-        35,
-        14
-      ],
+      "genre_ids": [28, 35, 14],
       "id": 594767,
       "original_language": "en",
       "original_title": "Shazam! Fury of the Gods",
@@ -50,10 +40,7 @@
     {
       "adult": false,
       "backdrop_path": "/7bWxAsNPv9CXHOhZbJVlj2KxgfP.jpg",
-      "genre_ids": [
-        27,
-        53
-      ],
+      "genre_ids": [27, 53],
       "id": 713704,
       "original_language": "en",
       "original_title": "Evil Dead Rise",
@@ -69,14 +56,7 @@
     {
       "adult": false,
       "backdrop_path": "/ouB7hwclG7QI3INoYJHaZL4vOaa.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        14,
-        12,
-        35,
-        18
-      ],
+      "genre_ids": [16, 10751, 14, 12, 35, 18],
       "id": 315162,
       "original_language": "en",
       "original_title": "Puss in Boots: The Last Wish",
@@ -92,11 +72,7 @@
     {
       "adult": false,
       "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
-      "genre_ids": [
-        28,
-        53,
-        80
-      ],
+      "genre_ids": [28, 53, 80],
       "id": 603692,
       "original_language": "en",
       "original_title": "John Wick: Chapter 4",
@@ -112,11 +88,7 @@
     {
       "adult": false,
       "backdrop_path": "/a2tys4sD7xzVaogPntGsT1ypVoT.jpg",
-      "genre_ids": [
-        53,
-        35,
-        80
-      ],
+      "genre_ids": [53, 35, 80],
       "id": 804150,
       "original_language": "en",
       "original_title": "Cocaine Bear",
@@ -132,9 +104,7 @@
     {
       "adult": false,
       "backdrop_path": "/54IXMMEQKlkPXHqPExWy98UBmtE.jpg",
-      "genre_ids": [
-        27
-      ],
+      "genre_ids": [27],
       "id": 1008005,
       "original_language": "es",
       "original_title": "La niña de la comunión",
@@ -150,12 +120,7 @@
     {
       "adult": false,
       "backdrop_path": "/eSVu1FvGPy86TDo4hQbpuHx55DJ.jpg",
-      "genre_ids": [
-        878,
-        12,
-        53,
-        28
-      ],
+      "genre_ids": [878, 12, 53, 28],
       "id": 700391,
       "original_language": "en",
       "original_title": "65",
@@ -171,10 +136,7 @@
     {
       "adult": false,
       "backdrop_path": "/5Y5pz0NX7SZS9036I733F7uNcwK.jpg",
-      "genre_ids": [
-        27,
-        53
-      ],
+      "genre_ids": [27, 53],
       "id": 758323,
       "original_language": "en",
       "original_title": "The Pope's Exorcist",
@@ -190,9 +152,7 @@
     {
       "adult": false,
       "backdrop_path": "/m1fgGSLK0WvRpzM1AmZu38m0Tx8.jpg",
-      "genre_ids": [
-        28
-      ],
+      "genre_ids": [28],
       "id": 842945,
       "original_language": "en",
       "original_title": "Supercell",
@@ -208,11 +168,7 @@
     {
       "adult": false,
       "backdrop_path": "/b9UCfDzwiWw7mIFsIQR9ZJUeh7q.jpg",
-      "genre_ids": [
-        10749,
-        28,
-        35
-      ],
+      "genre_ids": [10749, 28, 35],
       "id": 868759,
       "original_language": "en",
       "original_title": "Ghosted",
@@ -228,11 +184,7 @@
     {
       "adult": false,
       "backdrop_path": "/44immBwzhDVyjn87b3x3l9mlhAD.jpg",
-      "genre_ids": [
-        27,
-        9648,
-        53
-      ],
+      "genre_ids": [27, 9648, 53],
       "id": 934433,
       "original_language": "en",
       "original_title": "Scream VI",
@@ -248,13 +200,7 @@
     {
       "adult": false,
       "backdrop_path": "/c3hl9E8E7b9opXDFVF5tSyk0ykr.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10751,
-        12,
-        14
-      ],
+      "genre_ids": [16, 35, 10751, 12, 14],
       "id": 816904,
       "original_language": "es",
       "original_title": "Momias",
@@ -270,10 +216,7 @@
     {
       "adult": false,
       "backdrop_path": "/wD2kUCX1Bb6oeIb2uz7kbdfLP6k.jpg",
-      "genre_ids": [
-        27,
-        53
-      ],
+      "genre_ids": [27, 53],
       "id": 980078,
       "original_language": "en",
       "original_title": "Winnie the Pooh: Blood and Honey",
@@ -289,11 +232,7 @@
     {
       "adult": false,
       "backdrop_path": "/dlrWhn0G3AtxYUx2D9P2bmzcsvF.jpg",
-      "genre_ids": [
-        878,
-        27,
-        35
-      ],
+      "genre_ids": [878, 27, 35],
       "id": 536554,
       "original_language": "en",
       "original_title": "M3GAN",
@@ -309,11 +248,7 @@
     {
       "adult": false,
       "backdrop_path": "/aHcWyh0n4YbBy9gxYCDlgsNVS3M.jpg",
-      "genre_ids": [
-        27,
-        9648,
-        53
-      ],
+      "genre_ids": [27, 9648, 53],
       "id": 631842,
       "original_language": "en",
       "original_title": "Knock at the Cabin",
@@ -329,13 +264,7 @@
     {
       "adult": false,
       "backdrop_path": "/70aVSo3fuZ94jyQ3rT64afEf8lV.jpg",
-      "genre_ids": [
-        16,
-        12,
-        35,
-        10751,
-        14
-      ],
+      "genre_ids": [16, 12, 35, 10751, 14],
       "id": 676710,
       "original_language": "en",
       "original_title": "The Amazing Maurice",
@@ -351,11 +280,7 @@
     {
       "adult": false,
       "backdrop_path": "/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg",
-      "genre_ids": [
-        28,
-        35,
-        10749
-      ],
+      "genre_ids": [28, 35, 10749],
       "id": 758009,
       "original_language": "en",
       "original_title": "Shotgun Wedding",
@@ -371,10 +296,7 @@
     {
       "adult": false,
       "backdrop_path": "/ttXABm22Vu9MsQjDAF3Lx2nUPy0.jpg",
-      "genre_ids": [
-        35,
-        28
-      ],
+      "genre_ids": [35, 28],
       "id": 1101799,
       "original_language": "es",
       "original_title": "Fuga de Reinas",
@@ -390,10 +312,7 @@
     {
       "adult": false,
       "backdrop_path": "/94TIUEhuwv8PhdIADEvSuwPljS5.jpg",
-      "genre_ids": [
-        10752,
-        28
-      ],
+      "genre_ids": [10752, 28],
       "id": 840326,
       "original_language": "fi",
       "original_title": "Sisu",
